@@ -7,9 +7,7 @@ AWS automation using BOTO3 and troposphere API. Its is currently in progress. Bu
 2. Python 3
 3. boto3 for python
 4. troposphere for python
-
-# Getting Started
-1. Follow the following commands to setup your aws credentials.
+5. Follow the following commands to setup your aws credentials.
    1. Create .aws dir in you home directory
       * `$ cd`
       * `$ mkdir .aws`
@@ -21,6 +19,7 @@ AWS automation using BOTO3 and troposphere API. Its is currently in progress. Bu
          aws_access_key_id="your_aws_access_key_id"
          aws_secret_access_key="aws_secret_access_key" '''
  
- 2. Clone this repository
-  
+ # Getting Started
+ 1. Clone this repository
+ 
     
