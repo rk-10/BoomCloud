@@ -21,5 +21,12 @@ AWS automation using BOTO3 and troposphere API. Its is currently in progress. Bu
  
  # Getting Started
  1. Clone this repository
+ 2. Go to the root of the repo.
+ 3. Export the python path for this repo
+    * `$ export PYTHONPATH=./`
+ 4. Run the following command to create you first stack on **AWS**
+    * `$ python ./bin/boomcloud.py --stack=vpc --opearation=create`
+ 5. Go and checkout you cloud formation console on your AWS dashboard.
  
-    
+ # Running Tests
+ run `$ py.test ./tests/*` from root of your repo. 
