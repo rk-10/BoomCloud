@@ -14,8 +14,10 @@ AWS automation using BOTO3 and troposphere API. Its is currently in progress. Bu
       * `$ cd .aws`
    2. Copy paste the following and set you credentials in the credentials file.
       * `$ vi credentials`
-      ```   [default]
-            aws_access_key_id="your_aws_access_key_id"
-            aws_secret_access_key="aws_secret_access_key" '''
+      ```   
+         [default]
+         aws_access_key_id="your_aws_access_key_id"
+         aws_secret_access_key="aws_secret_access_key" 
+      '''
   
     
